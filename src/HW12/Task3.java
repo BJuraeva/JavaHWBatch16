@@ -36,7 +36,6 @@ Boy or Girl? girl - MAIEL
             System.out.println("Maiel");
         }
 
-
     }
 
 }

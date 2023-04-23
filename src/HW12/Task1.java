@@ -8,8 +8,17 @@ public class Task1 {
     For Example String str=hello =>l
      */
     public static void main(String[] args) {
+        // String name=new String("Mirjahongir");
         String name = "Mirjahongir";
-        System.out.println(name.charAt(5));
+
+        if(!name.isBlank()&& name.length()%2!=0 && name.length()>=5){
+            int middleIndex = name.length()/2;
+            char middleChar =name.charAt(middleIndex);
+            System.out.println(middleChar);
+        }
+
+        System.out.println("=================");
+
 
     }
 
