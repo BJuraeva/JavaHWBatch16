@@ -8,18 +8,17 @@ public class Task3 {
     method name - primeNumber
     parameter - int number
     body - for loop
-    return - true
+    return - isPrime
      */
     boolean primeNumber(int number){
-        boolean isFound= true;
+        boolean isPrime= true;
         for (int i = 2; i < number;  i++) {
             if(number % i == 0){
-                isFound=false;
+                isPrime=false;
+                break;
             }
-
         }
-        return isFound;
-
+        return isPrime;
     }
 
     public static void main(String[] args) {
@@ -27,8 +26,5 @@ public class Task3 {
         Task3 obj = new Task3();
         boolean result = obj.primeNumber(num);
         System.out.println(result);
-
     }
-
-
 }
