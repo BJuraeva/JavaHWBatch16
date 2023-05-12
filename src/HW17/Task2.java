@@ -31,7 +31,7 @@ public class Task2 {
         System.out.println(name.name);
 
         Task2 state= new Task2("New York");
-        
+
         Task2 age = new Task2 (25);
 
 
